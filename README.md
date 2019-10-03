@@ -14,8 +14,11 @@ This application will assist you with the following:
 Here's how:
 
 -For a song search simply enter 'spotify-this-song' then the song name to pull up the information.
+
 -To concert search, enter 'concert-this' then the name of the band to reveal tour dates.
+
 -To search for your favorite movie stats, enter 'movie-this' then the movie name to view the movie information.
+
 -For 'do-what-it-says', open the random.txt file, tell it your command, then enter in 'do-what-it-says' to the terminal.
 
 It's as easy as that! Enjoy LIRIbot!
