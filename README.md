@@ -1,7 +1,5 @@
 # LIRIbot
 
-# LIRIbot
-
 Welcome to LIRIbot!
 
 This application will assist you with the following:
