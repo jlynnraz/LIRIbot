@@ -22,3 +22,7 @@ Here's how:
 It's as easy as that! Enjoy LIRIbot!
 
 Technologies used are javascript and node.js
+
+View examples of use here:
+
+https://drive.google.com/drive/folders/1CFDAkWpsSCsFDihx2PvGul-jxhxpHYSp?usp=sharing
