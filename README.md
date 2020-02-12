@@ -27,4 +27,10 @@ Technologies used are javascript and node.js
 
 View examples of use here:
 
-https://drive.google.com/drive/folders/1CFDAkWpsSCsFDihx2PvGul-jxhxpHYSp?usp=sharing
+![Liri1](https://user-images.githubusercontent.com/53287044/74381464-bd0fdf80-4da8-11ea-8d38-85755a53f5cf.jpg)
+
+![Liri2](https://user-images.githubusercontent.com/53287044/74381475-c00ad000-4da8-11ea-93dc-0fb25c394a07.jpg)
+
+![Liri3](https://user-images.githubusercontent.com/53287044/74381479-c26d2a00-4da8-11ea-9aeb-6875c3e02f91.jpg)
+
+![Liri4](https://user-images.githubusercontent.com/53287044/74381485-c5681a80-4da8-11ea-946f-b1beb8d7ac6b.jpg)
