@@ -11,21 +11,21 @@ This application will assist you with the following:
 
 ## How It Works
 
--Open the application in your terminal or bash. Then enter 'node liri.js' to initiate the app.
+-Open the application in your terminal or bash. Run 'Npm Install' to install axios, Spotify, and moment packages.
 
--For a song search simply enter 'spotify-this-song' then the song name to pull up the information.
+-For a song search simply enter 'node liri.js spotify-this-song' then the song name to pull up the information.
 
--To concert search, enter 'concert-this' then the name of the band to reveal tour dates.
+-To concert search, enter 'node liri.js concert-this' then the name of the band to reveal tour dates.
 
--To search for your favorite movie stats, enter 'movie-this' then the movie name to view the movie information.
+-To search for your favorite movie stats, enter 'node liri.js movie-this' then the movie name to view the movie information.
 
--For 'do-what-it-says', open the random.txt file, tell it your command, then enter in 'do-what-it-says' to the terminal.
+-For 'node liri.js do-what-it-says', open the random.txt file, tell it your command, then enter in 'do-what-it-says' to the terminal.
 
 It's as easy as that! Enjoy LIRIbot!
 
 Technologies used are javascript and node.js
 
-View examples of use here:
+## View examples of use here:
 
 ![Liri1](https://user-images.githubusercontent.com/53287044/74381464-bd0fdf80-4da8-11ea-8d38-85755a53f5cf.jpg)
 
@@ -34,3 +34,38 @@ View examples of use here:
 ![Liri3](https://user-images.githubusercontent.com/53287044/74381479-c26d2a00-4da8-11ea-9aeb-6875c3e02f91.jpg)
 
 ![Liri4](https://user-images.githubusercontent.com/53287044/74381485-c5681a80-4da8-11ea-946f-b1beb8d7ac6b.jpg)
+
+## Technologies
+
+* Node.js
+* JavaScript
+* jQuery
+
+## Code Sample
+
+Here's an example of how the code loops through the search results from Spotify:
+~~~
+function spotSearch(input) {
+    spotify
+        .search({ type: 'track', query: input })
+        .then(function (response) {
+            var previewUrl = response.tracks.items[0].preview_url
+            var artist = response.tracks.items[0].artists[0].name
+            var song = response.tracks.items[0].album.name
+            console.log(`Artist: ${artist} \nAlbum:  ${song} \nPreview URL: ${previewUrl}`)
+            var easy = JSON.stringify(response.tracks.items[0], null, 10)
+            })
+            
+        // })
+        .catch(function (err) {
+            console.log(err);
+        });
+
+}
+~~~
+
+## Contact
+* jlynnraz@gmail.com
+* [LinkedIn](https://www.linkedin.com/in/jaimee-razee/)
+* [Portfolio](https://jlynnraz.github.io/Portfolio2/)
+
