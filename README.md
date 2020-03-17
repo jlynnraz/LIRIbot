@@ -9,9 +9,9 @@ This application will assist you with the following:
 3. Search for your favorite movies to reveal release dates, actors, ratings, etc.
 4. Enter a random search and tell LIRIbot to "Do what you say!"
 
-Here's how:
+## How It Works
 
--Run application in Node.js
+-Open the application in your terminal or bash. Then enter 'node liri.js' to initiate the app.
 
 -For a song search simply enter 'spotify-this-song' then the song name to pull up the information.
 
