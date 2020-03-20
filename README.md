@@ -41,7 +41,7 @@ Technologies used are javascript and node.js
 * JavaScript
 * jQuery
 
-## Code Sample
+## Behind the Scenes
 
 Here's an example of how the code loops through the search results from Spotify:
 ~~~
@@ -65,6 +65,7 @@ function spotSearch(input) {
 ~~~
 
 ## Contact
+Please contact me directly with any questions or comments!
 * jlynnraz@gmail.com
 * [LinkedIn](https://www.linkedin.com/in/jaimee-razee/)
 * [Portfolio](https://jlynnraz.github.io/Portfolio2/)
